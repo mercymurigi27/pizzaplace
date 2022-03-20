@@ -1,7 +1,8 @@
 *{
     box-sizing: border-box;
     font-family: fantasy;
-    background-color: rgb(184, 162, 136);
+   background-color: rgb(245, 194, 99);
+    
 
 }
 .navbar{
@@ -10,9 +11,21 @@
     justify-content: space-between;
     font-size: 20pt;
     padding: 20pt;
+   
 }
 .intro{
+    display: flex;
     text-align: center;
+    padding: 20pt;
+    margin-left: 20pt;
+   color: brown;
+    
+}
+#log{
+    height: 10pc;
+    width: 10pc;
+    padding: 20pt;
+  
 }
 .pics{
     display: flex;
