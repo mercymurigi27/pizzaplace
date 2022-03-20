@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     font-family: fantasy;
+    background-color: rgb(184, 162, 136);
 
 }
 .navbar{
@@ -9,6 +10,9 @@
     justify-content: space-between;
     font-size: 20pt;
     padding: 20pt;
+}
+.intro{
+    text-align: center;
 }
 .pics{
     display: flex;
@@ -23,6 +27,7 @@ img{
     height: 20pc;
     width: 25pc;
     margin-top: 20pt;
+    padding-right: 10pt;
 }
 button{
     height: 30pt;
