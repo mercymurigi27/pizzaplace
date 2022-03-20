@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    font-family: fantasy;
+
+}
+.navbar{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    font-size: 20pt;
+    padding: 20pt;
+}
+.pics{
+    display: flex;
+    padding: 20pt;
+    
+}
+.pics1{
+    display: flex;
+    padding: 20pt;
+}
+img{
+    height: 20pc;
+    width: 25pc;
+    margin-top: 20pt;
+}
+button{
+    height: 30pt;
+}
+p{
+    font-size: 12pt;
+}
+h3{
+   font-style: bold;
+}
+.pic11, .pic22, .pic33, .pic44, .pic55, .pic66{
+    display: flex;
+    
+    
+}
