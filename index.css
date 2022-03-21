@@ -1,7 +1,7 @@
 *{box-sizing: border-box;
     font-family: fantasy;
-   
-    
+    /* background-color: rgba(230, 230, 250,0.9);
+     */
 
 }
 .navbar{
@@ -23,12 +23,16 @@
    align-content: center;
     padding: 20pt;
     margin-left: 30pt;
-    background-image: url("images/pizza7.png");
+    background-image: linear-gradient(to bottom,beige,black);
 
-    
+}
+#gif{
+    height: 150pt;
+    width: 170pt;
 }
 .log{
-    color: beige;
+    color: rgb(22, 22, 12);
+    /* background-color: aliceblue; */
 }
 #log{
     height: 10pc;
