@@ -39,28 +39,61 @@ function Pizza(pizzaSize,numberOfPizzas,crustType,toppings){
 
 
       let total=sizePrice+crustPrice+toppingPrice;
-    
-      alert(
-          total) ;
+      return total;
       
-   
     }
 let submitButton=document.getElementById("submit");
 
 submitButton.addEventListener("click",(e)=>{
     e.preventDefault();
+    e.stopPropagation();
     let size=document.getElementById("size").value;
     let crust=document.getElementById("crust").value;
     let numberOne=document.getElementById("numberOne").value;
     let toppings=document.getElementById("topping").value;
-    
+
+    if(toppings===""){
+        alert("Choose a topping")
+    }
+    else if(size===""){
+        alert("Pick a pizza size")
+    }
+    else if(crust===""){
+        alert("You forgot the crust")
+    }
+    else{
+      
     const pizzaOne= new Pizza(size,crust,numberOne,toppings);
 
-    pizzaOne.yourAmount();
+    alert(pizzaOne.yourAmount());
+
+    let delOption=confirm("Do you want it to be home delivered?")
 
 
+    if(delOption===true){
+        var newTotal=pizzaOne.yourAmount()+300;
+        alert("You New Total is "  + newTotal);
+        let checkOut = document.getElementById("check");
+    checkOut.addEventListener("click",(e)=>{
+        e.preventDefault();
+        e.stopPropagation();
+        alert("proceed to pay "+ newTotal)
+    })
+    }else{
+        alert("Enjoy, your total is "+ pizzaOne.yourAmount());
+        let checkOut = document.getElementById("check");
+    checkOut.addEventListener("click", (e)=>{
+        e.preventDefault();
+        e.stopPropagation();
+        alert("Proceed to pay "+ pizzaOne.yourAmount());
+    })
+    }
+    };
+    
+    
+   
   
-})
+});
 
 
 
