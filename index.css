@@ -1,7 +1,6 @@
 *{
-    box-sizing: border-box;
     font-family: fantasy;
-   background-color: rgb(245, 194, 99);
+   
     
 
 }
@@ -13,12 +12,19 @@
     padding: 20pt;
    
 }
+#lo{
+    height: 25pc;
+    width: 20pc;
+
+}
 .intro{
     display: flex;
     text-align: center;
+   align-content: center;
     padding: 20pt;
-    margin-left: 20pt;
-   color: brown;
+    margin-left: 30pt;
+    background-image: linear-gradient(45deg,black,beige);
+
     
 }
 #log{
@@ -27,20 +33,23 @@
     padding: 20pt;
   
 }
+.chose{
+    display: flex;
+    flex-direction: column;
+ }
 .pics{
     display: flex;
     padding: 20pt;
+    background-image: linear-gradient( 100deg, beige,black) ;
+
     
 }
-.pics1{
-    display: flex;
-    padding: 20pt;
-}
-img{
-    height: 20pc;
+
+.pi img{
+    height: 25pc;
     width: 25pc;
-    margin-top: 20pt;
     padding: 20pt;
+   
 }
 button{
     height: 30pt;
@@ -51,8 +60,41 @@ p{
 h3{
    font-style: bold;
 }
-.pic11, .pic22, .pic33, .pic44, .pic55, .pic66{
+.pic11{
     display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     
     
+}
+
+#numberOne{
+    height: 50pt;
+    width: 80pt;
+}
+
+#checkout{
+    width: 30pc;
+    font-size: 25pt;
+    font-style: italic;
+    color: brown;
+    border-style: solid;
+   margin-left: 100pt;
+   border-color: blue;
+    
+}
+#checkout:hover{
+    fill: brown;
+    color: black;
+}
+
+#userdets{
+    display: flex;
+    flex-direction: column;
+}
+#check{
+    color: brown;
+    background-color: yellow;
+    padding: 20pt;
+    margin-top: 20pt;
 }
