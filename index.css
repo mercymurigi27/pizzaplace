@@ -1,4 +1,4 @@
-*{
+*{box-sizing: border-box;
     font-family: fantasy;
    
     
@@ -23,31 +23,36 @@
    align-content: center;
     padding: 20pt;
     margin-left: 30pt;
-    background-image: linear-gradient(45deg,black,beige);
+    background-image: url("images/pizza7.png");
 
     
+}
+.log{
+    color: beige;
 }
 #log{
     height: 10pc;
     width: 10pc;
     padding: 20pt;
+    
   
 }
-.chose{
+/* .chose{
     display: flex;
     flex-direction: column;
- }
-.pics{
+ } */
+.pic1{
     display: flex;
     padding: 20pt;
-    background-image: linear-gradient( 100deg, beige,black) ;
+    justify-content: space-around;
+    background-image: linear-gradient( 90deg,black, beige) ;
 
     
 }
 
 .pi img{
-    height: 25pc;
-    width: 25pc;
+    height: 35pc;
+    width: 35pc;
     padding: 20pt;
    
 }
@@ -60,13 +65,11 @@ p{
 h3{
    font-style: bold;
 }
-.pic11{
+/* .pic11{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    
-    
-}
+    justify-content: space-evenly; 
+} */
 
 #numberOne{
     height: 50pt;
