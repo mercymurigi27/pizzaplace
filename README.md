@@ -5,7 +5,7 @@
 ## Table of Contents
 + [Description](#description)
 + [Installation Requirements](#installation)
-+ [Live link](#link)
++ [Live link](https://mercymurigi27.github.io/pizzaplace/)
 + [Technologies Used](#technology)
 + [Known Bugs](#bugs)
 + [Lisence](#lisence)
